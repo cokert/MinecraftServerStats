@@ -1,0 +1,8 @@
+install.packages('dplyr')
+install.packages('stringr')
+install.packages('data.table')
+install.packages('tidyr')
+install.packages('ggplot2')
+install.packages('RCurl')
+install.packages('lubridate')
+install.packages('config')
