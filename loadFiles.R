@@ -43,7 +43,7 @@ loadFiles <- function(server = "", user="", pass="", timeOffset=1) {
   logContents<-logContents[!grepl("[Server thread/INFO]: Saved the world", logContents$text, fixed=TRUE),]
   logContents<-logContents[!grepl("[Server thread/INFO]: Saving...", logContents$text, fixed=TRUE),]
   logContents<-logContents[!grepl("[Server thread/INFO]: Saving is already turned on.", logContents$text, fixed=TRUE),]
-  
+
   #apply timeoffset
   logContents$datetime<-logContents$datetime + timeOffset * 60 * 60 #convert seconds to hours
   
