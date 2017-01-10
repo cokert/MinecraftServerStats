@@ -1,0 +1,4 @@
+default:
+  server: ServerNameOrIPAddress
+  userName: FTPUserName
+  password: FTPPassword
