@@ -10,4 +10,4 @@ It extracts and displays various stats based on the following items
   
 The chat log is available as a filterable Bootstrap DataTable.  The full contents of the logs are also available as a filterable Bootstrap DataTable. 
 
-(Screenshots coming....)
+Screenshots and detailed information about running this available in the [wiki](https://github.com/cokert/MinecraftServerStats/wiki)
